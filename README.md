@@ -1,2 +1,23 @@
 # RC-Car-Spring-2023
-This is the repo for my RC Car project for my Spring 2023 workterm. 
+NOTE - README IS STILL A WORK IN PROGRESS
+Some of this information will be subject to change
+
+												---- RC CAR 2023 ----
+
+This is the Raspberry Pi currently being used for controlling the RC car.
+If needed, the username is "pi" and the password is "raspberry2".
+
+												---- OPERATION ----
+												
+On startup, the scripts needed to run the RC car should automatically open up. 
+If for some reason you dont want the scripts operating on startup, modify the "/etc/rc.local"
+file, or I guess you could just delete the script. 
+
+The RC car can be controlled via PS3 controller (specifically the Mad Giga one in the lab, but others should work fine)
+Uses the left & right triggers to accelerate the left & right sides of the wheels, and uses the left & right bumpers to reverse.
+
+All of the code needed for the RC car to actually run is on the RCcar.py file on the desktop.
+
+If for whatever reason you need to kill the program, the select button kills the motors.
+
+Controls can be modified by editing the "miniCar.lyt" file in QJoyPad, just make sure you change the python code accordingly!
