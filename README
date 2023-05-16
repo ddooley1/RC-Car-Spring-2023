@@ -1,15 +1,1 @@
-												---- RC CAR 2023 ----
 
-This is the Raspberry Pi currently being used for controlling the RC car and later, the balancing robot.
-If needed, the username is "pi" and the password is "raspberry2".
-
-												---- OPERATION ----
-												
-On startup, the scripts needed to run the RC car should automatically open up. 
-If for some reason you dont want the scripts operating on startup, modify the "/etc/rc.local"
-file, or I guess you could just delete the script. 
-
-The RC car can be controlled via PS3 controller (specifically the Mad Giga one in the lab, but others should work fine)
-Use up/down on the left joustick to accelerate left and right, and use left/right on the right joystick to turn.
-If for whatever reason you need to kill the program, the select button kills the motors. (I'll make sure it safely turns the pi off later as well)
-Controls can be modified by editing the "miniCar.lyt" file in QJoyPad.
