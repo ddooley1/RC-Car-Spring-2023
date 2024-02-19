@@ -1,13 +1,7 @@
 # RC-Car-Spring-2023
-NOTE - README IS STILL A WORK IN PROGRESS
-Some of this information will be subject to change
-
-												---- RC CAR 2023 ----
 
 This is the Raspberry Pi currently being used for controlling the RC car.
 If needed, the username is "pi" and the password is "raspberry2".
-
-												---- OPERATION ----
 												
 On startup, the scripts needed to run the RC car should automatically open up. 
 If for some reason you dont want the scripts operating on startup, modify the "/etc/rc.local"
