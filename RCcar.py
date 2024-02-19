@@ -1,10 +1,5 @@
 #This is the main Python program used to run the RC car. Boots on startup
 
-#To-Do :
-#May try and re-write the temprature reading to run asynchronously while the car is driving around, for true real time updating
-#Still need proper error handling, probably will just end up throwing the entire code into a try-catch block
-#Currently working on analogue input reading for the acceleration. Exciting!
-
 from Phidget22.Phidget import * 
 from Phidget22.Devices.DCMotor import * #Libraries used to interact with the Phidget motor controller onboard
 from RPLCD.i2c import CharLCD #Used for LCD functionality
