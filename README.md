@@ -1,8 +1,5 @@
 # RC-Car-Spring-2023
-
-This is the Raspberry Pi currently being used for controlling the RC car.
-If needed, the username is "pi" and the password is "raspberry2".
-												
+			
 On startup, the scripts needed to run the RC car should automatically open up. 
 If for some reason you dont want the scripts operating on startup, modify the "/etc/rc.local"
 file, or I guess you could just delete the script. 
